@@ -69,5 +69,5 @@ app.delete("/coments/delete/:id", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log("Server is running on port 7000");
+    console.log(`Server is running on port ${PORT}`);
 });
